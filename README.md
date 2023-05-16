@@ -21,15 +21,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
   Feito com 💜 by Rocketseat
 </p>
 
-<!--START_SECTION:footer-->
+## 🧑 Participante 
 
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
+Olá! Eu sou um aluno da Rocketseat e estou empolgado em participar do evento NLW Spacetime! Estou usando o repositório modelo fornecido pela Rocketseat para criar meu projeto. Mal posso esperar para compartilhar o que aprendi com a comunidade!
