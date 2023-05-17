@@ -41,6 +41,11 @@ module.exports = {
           900: '#025929',
         },
       },
+      fontFamily: {
+        title: 'Roboto_700Bold',
+        body: 'Roboto_400Regular',
+        alt: 'BaiJamJuree_700Bold',
+      },
     },
   },
   plugins: [],
