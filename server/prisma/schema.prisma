@@ -8,6 +8,21 @@ datasource db {
 }
 
 model User {
-  id   String @id @default(uuid())
-  name String
+  id        String   @id @default(uuid())
+  gitguhId  Int      @unique
+  name      String
+  login     String
+  avatarUrl String
+  memories  Memory[]
+}
+
+model Memory {
+  userId    String
+  id        String   @id @default(uuid())
+  coverUrl  String
+  content   String
+  isPublic  Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
 }
