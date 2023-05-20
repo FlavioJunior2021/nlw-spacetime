@@ -1,28 +1,20 @@
-/* eslint-disable prettier/prettier */
 import { makeRedirectUri, useAuthRequest } from 'expo-auth-session'
 import { useRouter } from 'expo-router'
 import { useEffect } from 'react'
 
 import * as SecureStore from 'expo-secure-store'
 
-import { StatusBar } from 'expo-status-bar'
-import { ImageBackground, Text, TouchableOpacity, View } from 'react-native'
-
-import blurBg from '../src/assets/bg-blur.png'
 import NlwLogoSvg from '../src/assets/nlw-logo.svg'
-import Stripes from '../src/assets/stripes.svg'
 
 import {
-    Roboto_400Regular,
-    Roboto_700Bold,
-    useFonts,
+  Roboto_400Regular,
+  Roboto_700Bold,
+  useFonts,
 } from '@expo-google-fonts/roboto'
 
 import { BaiJamjuree_700Bold } from '@expo-google-fonts/bai-jamjuree'
-import { styled } from 'nativewind'
+import { Text, TouchableOpacity, View } from 'react-native'
 import { api } from '../src/lib/api'
-
-const StyledStripes = styled(Stripes)
 
 const discovery = {
   authorizationEndpoint: 'https://github.com/login/oauth/authorize',
@@ -75,12 +67,7 @@ export default function App() {
   }
 
   return (
-    <ImageBackground
-      source={blurBg}
-      imageStyle={{ position: 'absolute', left: -200 }}
-      className="relative flex-1 bg-gray-900 px-8 py-10"
-    >
-      <StyledStripes className="absolute left-2" />
+    <View className="flex-1 px-8 py-10">
       <View className="flex-1 items-center justify-center gap-6">
         <NlwLogoSvg />
         <View className="space-y-2">
@@ -105,7 +92,6 @@ export default function App() {
       <Text className="text-center font-body text-sm leading-relaxed">
         Feito com 💜 no NLW da Rocketseat
       </Text>
-      <StatusBar style="light" translucent />
-    </ImageBackground>
+    </View>
   )
 }
