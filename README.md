@@ -27,10 +27,10 @@ Olá! Eu sou um aluno da Rocketseat e estou empolgado em participar do evento NL
 
 ## Under development
 
--[] Edição de memorias
--[] Link para compartilhar memoria
--[] Selecionar data da memoria(Expo date picker)
--[] Layout responsivo
+- [ ] Edição de memorias
+- [ ] Link para compartilhar memoria
+- [ ] Selecionar data da memoria(Expo date picker)
+- [ ] Layout responsivo
 
 
 
