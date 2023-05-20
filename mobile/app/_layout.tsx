@@ -4,9 +4,9 @@ import { styled } from 'nativewind'
 import { ImageBackground } from 'react-native'
 
 import {
-    Roboto_400Regular,
-    Roboto_700Bold,
-    useFonts,
+  Roboto_400Regular,
+  Roboto_700Bold,
+  useFonts,
 } from '@expo-google-fonts/roboto'
 
 import { BaiJamjuree_700Bold } from '@expo-google-fonts/bai-jamjuree'
@@ -50,6 +50,7 @@ export default function Layout() {
         screenOptions={{
         headerShown: false,
         contentStyle: { backgroundColor: 'transparent' },
+        animation: 'fade'
     }}
     >
         <Stack.Screen name='index' redirect={isUserAuthenticated}/>
