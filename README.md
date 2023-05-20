@@ -23,7 +23,8 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 🧑 Participante 
 
-Olá! Eu sou um aluno da Rocketseat e estou empolgado em participar do evento NLW Spacetime! Estou usando o repositório modelo fornecido pela Rocketseat para criar meu projeto. Mal posso esperar para compartilhar o que aprendi com a comunidade!
+Olá pessoal! Acabei de participar do incrível evento NLW Spacetime da Rocketseat e estou aqui para compartilhar com vocês a minha experiência. Foi uma semana intensa de aprendizado, onde pude mergulhar fundo no desenvolvimento de projetos utilizando tecnologias avançadas.
+Os desafios propostos ao longo da semana foram desafiadores, mas também gratificantes. Cada etapa concluída me trouxe uma sensação de realização e me incentivou a continuar aprendendo e evoluindo como desenvolvedor.
 
 ## Under development
 
