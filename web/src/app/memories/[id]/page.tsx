@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import EditMemoryForm from '@/components/EditMemoryForm'
 import { EmptyMemories } from '@/components/EmptyMemories'
 import { api } from '@/lib/api'
 import dayjs from 'dayjs'
@@ -60,6 +61,9 @@ export default async function MemoryForId({ params }: MemorySlug) {
           <ArrowLeft className="h-4 w-4" />
           Voltar para memorias
         </Link>
+        <p className="text-lg leading-relaxed text-gray-100">Editar memoria</p>
+        
+        <EditMemoryForm id={memory.id}/>
       </div>
     </div>
   )

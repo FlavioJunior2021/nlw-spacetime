@@ -2,7 +2,7 @@ import NewMemoryForm from '@/components/NewMemoryForm'
 import { ChevronLeft } from 'lucide-react'
 import Link from 'next/link'
 
-export default function NewMemori() {
+export default function NewMemory() {
   return (
     <div className="fle-1 flex flex-col gap-4">
       <Link
