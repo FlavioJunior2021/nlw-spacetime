@@ -28,7 +28,7 @@ Os desafios propostos ao longo da semana foram desafiadores, mas também gratifi
 
 ## Under development
 
-- [ ] Edição de memorias
+- [x] Edição de memorias
 - [ ] Link para compartilhar memoria
 - [ ] Selecionar data da memoria(Expo date picker)
 - [ ] Layout responsivo
