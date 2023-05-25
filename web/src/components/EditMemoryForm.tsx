@@ -3,12 +3,12 @@
 import { api } from '@/lib/api'
 import Cookie from 'js-cookie'
 import { Camera } from 'lucide-react'
+import { useRouter } from 'next/navigation'
 import { FormEvent } from 'react'
 import FilePicker from './FilePicker'
-import { useRouter } from 'next/navigation'
 
 interface UpdateMemoryId {
-    id: string
+  id: string
 }
 
 export default function EditMemoryForm({ id }: UpdateMemoryId) {
